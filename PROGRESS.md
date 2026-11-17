@@ -4,7 +4,7 @@ Goal: ship in about 7 days. If time runs short, cut to 4 tasks and 3 setups.
 
 ### Phase 0: Setup
 - [x] 0.1 [YOU] Create an AssemblyAI account (on or after Nov 17) and a project-only API key. Done when: key saved in your password manager. (2026-11-16)
-- [ ] 0.2 Create the repo folder, `git init`, `.gitignore` (`.env`, `runs/`), README stub, NOTES.md. Done when: `git status` shows a clean first commit.
+- [x] 0.2 Create the repo folder, `git init`, `.gitignore` (`.env`, `runs/`), README stub, NOTES.md. Done when: `git status` shows a clean first commit. (2026-11-16)
 - [ ] 0.3 [YOU] Put the key in `.env`. Done when: one API call returns 200 (key never shown).
 - [ ] 0.4 [YOU] Record a 20 to 30 second clip with 2 speakers as `fixtures/sample.mp3`; list 5 to 8 distinctive words you said in `fixtures/expected.txt`. Done when: both files exist.
 - [ ] 0.5 Transcribe the clip once with STT-3.7 by hand. Done when: transcript contains the expected words and the API reports the STT-3.7 model id (write the exact id in NOTES.md).
