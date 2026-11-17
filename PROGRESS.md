@@ -8,7 +8,7 @@ Goal: ship in about 7 days. If time runs short, cut to 4 tasks and 3 setups.
 - [ ] 0.3 [YOU] Put the key in `.env`. Done when: one API call returns 200 (key never shown).
 - [ ] 0.4 [YOU] Record a 20 to 30 second clip with 2 speakers as `fixtures/sample.mp3`; list 5 to 8 distinctive words you said in `fixtures/expected.txt`. Done when: both files exist.
 - [ ] 0.5 Transcribe the clip once with STT-3.7 by hand. Done when: transcript contains the expected words and the API reports the STT-3.7 model id (write the exact id in NOTES.md).
-- [ ] 0.6 Check AssemblyAI's changelog and the `assemblyai-skill` repo for changes since Nov 16 (did they add STT-3.7?). Done when: findings in NOTES.md. If they already fixed it, adjust Phase 5 with Dennis.
+- [x] 0.6 Check AssemblyAI's changelog and the `assemblyai-skill` repo for changes since Nov 16 (did they add STT-3.7?). Done when: findings in NOTES.md. If they already fixed it, adjust Phase 5 with Dennis. (2026-11-16)
 - [x] 0.7 [YOU] Create a private GitHub repo and push. Done when: first commit is on GitHub. (2026-11-16)
 
 ### Phase 1: Tasks and checks
