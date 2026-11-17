@@ -12,7 +12,7 @@ Goal: ship in about 7 days. If time runs short, cut to 4 tasks and 3 setups.
 - [x] 0.7 [YOU] Create a private GitHub repo and push. Done when: first commit is on GitHub. (2026-11-16)
 
 ### Phase 1: Tasks and checks
-- [ ] 1.1 Build shared grading helpers (`lib/grade.py`): find transcripts created since a timestamp, read real model and config, keyword match, static scans. Done when: helpers work against the 0.5 transcript.
+- [x] 1.1 Build shared grading helpers (`lib/grade.py`): find transcripts created since a timestamp, read real model and config, keyword match, static scans. Done when: helpers work against the 0.5 transcript. (2026-11-16)
 - [ ] 1.2 Task T1, basic: "Write transcribe.py that transcribes sample.mp3 with speaker labels using AssemblyAI's newest model and prints the transcript." Done when: check passes on a correct reference solution and fails on one using an old model.
 - [ ] 1.3 Task T2, web app: "Add a FastAPI endpoint that accepts an audio upload and returns the transcript." Done when: same pass and fail test.
 - [ ] 1.4 Task T3, summary: "Transcribe sample.mp3 and summarize it." Check uses LLM Gateway, not LeMUR. Done when: same pass and fail test.
